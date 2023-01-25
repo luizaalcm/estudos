@@ -1,0 +1,519 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Asimo';
+    src: url(./fontes/AsimovProBd.otf);
+    font-family:'Nofancy' ;
+    src: url(./fontes/No\ Fancy\ Name\ Grotesk\ Bold.ttf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+
+}
+body{
+    overflow-x: hidden;
+}
+:root{
+    --cor0:#25253F;
+    --cor1:#4A4466;
+    --cor2:#2A2845;
+    --cor3:#7562E0;
+    --cor4:white;
+    --cor5:#34314F;
+
+}
+
+body{
+    background-color: var(--cor1);
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor4);
+}
+
+
+header{
+    background-color: var(--cor0);
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-right: 40px;
+    border-radius: 8px 8px 0px 0px;
+    color: var(--cor4);
+    
+
+}
+header > nav{
+position: absolute;
+padding: 60px;
+padding-top: 30px;
+top: 7%;
+right: 0;
+font-family: 'Nofancy',Arial, Helvetica, sans-serif;
+font-size: 1em;
+font-weight: lighter;
+}
+header > nav > a{
+padding: 20px;
+letter-spacing: 0.5px;
+
+}
+header > nav > a:hover{
+    text-decoration: underline;
+}
+header > p#first{
+font-family:'Nofancy',Arial, Helvetica, sans-serif;
+font-size: 1.3em;
+text-decoration: underline solid var(--cor1);
+font-weight: lighter;
+letter-spacing: 0.5px;
+padding-top: 250px;
+padding-left: 150px;
+padding-bottom: 40px;
+}
+header > h1{
+    font-family:'Nofancy',Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    letter-spacing: 1px;
+    padding-left: 150px;
+    padding-bottom: 30px;
+}
+header > h2{
+padding-left: 150px;
+font-family:'Nofancy',Arial, Helvetica, sans-serif;
+padding-bottom: 30px;
+}
+header > p{
+    font-family:'Nofancy',Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
+    padding-left: 150px;
+    line-height: 30px;
+}
+header > ul{
+position: absolute;
+display: flex;
+padding-left: 130px;
+padding-top:20px;
+}
+header > ul > li{
+    list-style: none;
+padding: 20px;
+}
+header > ul > li#hire >button{
+    background-color:var(--cor3);
+}
+header > ul > li > button{
+background-color: var(--cor1);
+border: none;
+width: 200px;
+height: 50px;
+border-radius: 5px;
+
+
+}
+
+header > ul > li > button > a{
+font-family:'Nofancy',Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+header > img{
+    padding-left: 600px;
+    top: -450px;
+    position: relative;
+}
+
+main{
+    background-color: var(--cor0);
+    margin-left: 40px;
+    margin-right: 40px;
+     color: var(--cor4);
+     top:-360px;
+     position: relative;
+   
+}
+main > img{
+    padding-left: 130px;
+}
+main > h2{
+    font-family:'Nofancy',Arial, Helvetica, sans-serif;
+    margin-left: 700px;
+    top: 40px;
+    position: relative;
+}
+main > ul {
+    font-family:'Nofancy',Arial, Helvetica, sans-serif;
+    margin-left: 700px;
+    top: -300px;
+    position: relative;
+}
+main > ul > li{
+    padding: 10px;
+    
+    position: relative;
+    font-size: 1.2em;
+}
+main > button{
+    background-color: var(--cor3);
+border: none;
+width: 200px;
+height: 50px;
+border-radius: 5px;
+position: relative;
+margin-left: 700px;
+top:-250px;
+
+}
+main > button > a{
+    font-family:'Nofancy',Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+
+section#what{
+    font-family:'Nofancy',Arial, Helvetica, sans-serif;
+    background-color: var(--cor0);
+    margin-left: 40px;
+    margin-right: 40px;
+    color: var(--cor4);
+    position: relative;
+    top: -500px;
+    height: 500px;
+}
+
+section#what > p{
+color: var(--cor3);
+position: relative;
+margin-left: 45%;
+font-size: 1.5em;
+letter-spacing: 4px;
+}
+section#what > h2{
+    position: relative;
+    margin-left: 41%;
+    margin-top: 20px;
+    font-size: 2.0em;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+section#what > ul{
+    position: absolute;
+    display: flex;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+section#what > ul > li{
+background-color: var(--cor5);
+width: 350px;
+height: 250px;
+margin: 10px;
+border-radius: 10px;
+list-style: none;
+}
+section#what > ul > li > img{
+    border-radius: 5px;
+    align-items: center;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 150px;
+}
+section#what > ul > li > h3{
+    text-align: center;
+    font-size: 1.7em;
+    padding: 10px;
+}
+section#what > ul > li > p{
+    text-align: center;
+    position: relative;
+    padding-top: 15px;
+    font-size: 1.4em;
+    color:#7F7C87 ;
+}
+
+
+
+    
+section#projects{
+    font-family:'Nofancy',Arial, Helvetica, sans-serif;
+    background-color: var(--cor0);
+    margin-left: 40px;
+    margin-right: 40px;
+    color: var(--cor4);
+    position: relative;
+    top: -500px;
+    
+   
+}
+section#projects > h2{
+    position: relative;
+    letter-spacing: 1.5px;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+section#projects > p{
+    color:#7F7C87;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 20px;
+}
+section#projects > ul > li > img{
+    border-radius: 5px;
+}
+section#projects > ul#ul0{
+    position: absolute;
+    display: flex;
+    padding-left: 400px; 
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+section#projects > ul#ul0 >li{
+    padding: 20px;
+    list-style: none;
+    font-size: 1.3em;
+}
+
+
+section#projects > ul#ul1{
+    position: absolute;
+    display: flex;
+    padding-left: 130px;
+    padding-top:20px;
+}
+section#projects > ul#ul1 > li{
+    list-style: none;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+section#projects > ul#ul2{
+    position: absolute;
+    display: flex;
+    padding-left: 130px;
+    padding-top:300px;
+}
+section#projects > ul#ul2 > li{
+    list-style: none;
+    padding: 20px;
+    margin-top: 60px;
+}
+section#projects >button{
+    background-color: var(--cor3);
+    border: none;
+    width: 130px;
+    height: 50px;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 570px;
+    margin-top: 660px;
+}
+section#projects >button >a{
+    font-family:'Nofancy',Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+section#contact{
+font-family:'Nofancy',Arial, Helvetica, sans-serif;
+background-color: var(--cor0);
+margin-left: 40px;
+margin-right: 40px;
+color: var(--cor4);
+position: relative;
+top: -500px;
+}
+section#contact > h2{
+    font-size: 2.5em;
+    text-align: center;
+    top: 120px;
+    position: relative;
+
+}
+section#contact > p{
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 20px;
+    color: #7F7C87;
+    font-size: 1.3em;
+
+}
+
+section#contact > ul#info > li{
+    list-style: none;
+    font-size: 1.5em;
+    padding: 20px;
+    position: relative;
+    left: 200px;
+}
+section#contact > ul#info2{
+margin-top: -260px;
+}
+section#contact >ul#info2 > li{
+    list-style: none;
+    font-size: 1.5em;
+    position: relative;
+    left: 400px;
+    color: #7F7C87;
+    padding: 20px;
+}
+section#contact >button{
+    background-color: var(--cor3);
+border: none;
+width: 200px;
+height: 50px;
+border-radius: 5px;
+position: relative;
+margin-left: 800px;
+top:-290px;
+
+}
+section#contact >button >a{
+    font-family:'Nofancy',Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+section#contact > ul#input{
+    list-style: none;
+    font-size: 1.5em;
+    padding: 20px;
+    position: relative;
+    margin-left: 700px;
+    top: -290px;
+}
+section#contact > ul#input > li{
+padding: 15px;
+}
+input{
+    width: 300px;
+   height: 30px;
+   padding: 10px;
+   background-color: #2A2845;
+   border: 1px solid white;
+   border-radius: 5px;
+   font-family: 'Nofancy',Arial, Helvetica, sans-serif;
+   font-size: 20px;
+
+}
+
+section#project{
+    font-family:'Nofancy',Arial, Helvetica, sans-serif;
+    background-color: var(--cor2);
+    margin-left: 40px;
+    margin-right: 40px;
+    color: var(--cor4);
+    height: 450px;
+    position: relative;
+    top: -500px;
+}
+section#project > img {
+    border-radius: 50%;
+    position: relative;
+    margin-left: 1100px;
+    top: 40px;
+}
+section#project >h2{
+    position: relative;
+    font-size: 1.9em;
+    font-weight: bolder;
+    text-align: center;
+    top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section#project > p{
+    text-align: center;
+    top: 100px;
+    position: relative;
+    color: #7F7C87;
+    font-size: 1.3em;
+    
+}
+section#project > ul{
+    font-family:'Nofancy',Arial, Helvetica, sans-serif;
+    position: absolute;
+    display: flex;
+    padding-left: 350px;
+    padding-top:150px;
+}
+section#project > ul > li{
+list-style: none;
+font-family:'Nofancy',Arial, Helvetica, sans-serif;
+font-size: 1.5em;
+padding: 40px;
+text-align: center;
+}
+
+section#project >ul#img{
+    position: absolute;
+    padding-left: 280px;
+    padding-top:124px;
+}
+section#project >ul#img > li{
+    padding: 60px;
+    text-align: center;
+}
+section#project > ul#img > li > img{
+    border-radius: 50%;
+
+}
+footer{
+    background-color: var(--cor0);
+    margin-left: 40px;
+    margin-bottom: -300px;
+    margin-right: 40px;
+    border-radius: 0px 0px 8px 8px;
+    color: var(--cor4);
+    height: 300px;
+    position: relative;
+    top: -500px;
+
+}
+footer > ul{
+    list-style: none;
+    font-family:'Nofancy',Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+footer > ul#about{
+    position: absolute;
+    display: flex;
+    padding-left: 330px;
+    padding-top:110px;
+}
+footer > ul#about > li{
+padding: 30px;
+}
+footer > ul#icons{
+ position: absolute;
+    display: flex;
+    padding-left: 1000px;
+    padding-top:70px;
+}
+footer > ul#icons > li{
+padding: 10px;
+color: #7562E0;
+}
+footer> div#linha-horizontal {
+    width: 1100px;
+    border: 1px solid #7F7C87;
+    position: relative;
+    top: 200px;
+    left: 75px;
+}
+footer > ul#terms{
+position: absolute;
+display: flex;
+padding-left: 780px;
+padding-top:220px;
+
+}
+footer > ul#terms > li{
+padding: 20px;
+}
